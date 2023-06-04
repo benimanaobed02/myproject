@@ -1,0 +1,73 @@
+table,tr,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 1000px;
+    height: 50px;
+}
+
+table :nth-child(even){
+    background: #aaa;
+}
+.in{
+    float: 20px;
+    margin-left: 1100px;
+    margin-top: 100px;
+    background: transparent;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    color: black;
+    
+    position: fixed;
+}
+
+.in input{
+    background-image: url(search.svg);
+    background-repeat: no-repeat;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+    padding-left: 40px;
+
+}
+.lin{
+    
+    position: fixed;
+    
+    font-weight: bold;
+    display: flex;
+    gap: 30px;
+    margin-left: 1000px;
+    margin-top: 40px;
+    font-size: 17px;
+    background-color: aqua;
+}
+.bt{
+    background: transparent;
+    height: 50px;
+    width: 50px;
+    margin-left: 500px;
+    margin-top: 70px;
+}
+.bt input{
+    background-color: rgb(13, 240, 236);
+    width:50px ;
+    height: 50px;
+    padding: 2px;
+;
+
+}
+.lin :hover{
+    color: rgb(207, 77, 77);
+    transform: scale(1.2,1.2);
+}
+.lin a{
+    text-decoration: none;
+}
+body{
+    background-image: url(izo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
